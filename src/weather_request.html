@@ -1,34 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./weather_request.css">
-    <title>Homework 10</title>
-  </head>
-  <body>
-  <!-- Погода -->
-    <form class="js-search" action="submit">
-      <input type="text" name="query">
-      <select name="days" >
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="7">7</option>
-        <option value="10">10</option>
-        <button type="submit">Search</button>
-      </select>
-
-    </form>
-
-    <!-- Список фільмів -->
-    <ul class="js-list"></ul>
-
-<!-- додаткова опція - скрол -->
-    <div class="js-guard"></div>
-
-    <button class="js-load" hidden>Load more</button>
-
-    <script src="./weather_request.js" type="module"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./weather_request.css">
+  <title>Homework 10</title>
+</head>
+<body>
+  <h1>Weather Forecast</h1>
+  <nav>
+    <a href="./United.html">Back to Menu</a>
+  </nav>
+  <form class="js-search" action="submit">
+    <input type="text" name="query" placeholder="Enter a city">
+    <select name="days">
+      <option value="3">3 days</option>
+      <option value="4">4 days</option>
+      <option value="5">5 days</option>
+      <option value="7">7 days</option>
+      <option value="10">10 days</option>
+    </select>
+    <button type="submit">Search</button>
+  </form>
+  <ul class="js-list"></ul>
+  <script src="./weather_request.js" type="module"></script>
+</body>
 </html>

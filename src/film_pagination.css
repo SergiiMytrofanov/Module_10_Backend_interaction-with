@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 20px;
+  }
+
+  img {
+    max-width: 300px;
+  }
+
+  h2 {
+    margin-top: 10px;
+  }
+
+  .load {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4959b8;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .load:hover,
+  .load:focus {
+    background-color: #9abfd8;
+  }
